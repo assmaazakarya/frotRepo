@@ -1,7 +1,7 @@
 
 // import './App.css'
 
-
+//comment
 import Register from "./components/Register"
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import Register from './components/Register'
