@@ -19,15 +19,7 @@ function Register() {
   console.log(loc.state );
   const form=useForm()
   const {register,handleSubmit,formState }=form
-  // function onSub(){
-  //   localStorage.setItem('token', "true");
-  //   if(loc.state){
-  //     nav('/login')
-  //   }else{
-  //     nav('/home')
-  //   }
-
-  // }
+  
   return (
     <div className="container d-flex justify-content-center mt-4 align-items-center height containerWidth ">
       <div className="row w-100">
