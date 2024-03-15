@@ -1,14 +1,14 @@
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     'node_modules/flowbite-react/lib/esm/**/*.js',
   ],
-  daisyui: {
-    themes: [
-      {
+  theme: {
+    extend: {
+      colors: {
         mytheme: {
           "primary": "#a991f7",
           "secondary": "#f6d860",
@@ -19,12 +19,11 @@ export default {
           "info": "#32C7FF"
         },
       },
-      "dark",
-      "cupcake",
-    ],
+    },
   },
   plugins: [
     require("daisyui"),
-    require('tailwindcss/nesting')
+    require('postcss-nesting'),
+    require('autoprefixer'),
   ],
 };
