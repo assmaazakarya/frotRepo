@@ -58,6 +58,9 @@
 .hover-meal{
   visibility: hidden;
 }
+.imgW{
+  height:28vh !important;
+}
 .cardImg:hover{
   .hover-meal{
     visibility: visible;

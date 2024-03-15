@@ -15,7 +15,7 @@ function PayButton({ cartItems }) {
             _id: item._id,
             title: item.title,
             price: item.price,
-            imageFile: item.imageFile,
+            // imageFile: item.imageFile,
             cartQuantity: item.cartQuantity
         }));
         console.log(cartItems)

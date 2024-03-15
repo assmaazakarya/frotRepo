@@ -18,7 +18,7 @@ function MealCard({ data }) {
     <div className="bg-white cardy rounded-lg shadow-lg p-8">
       <div className="relative overflow-hidden">
       <div className="badge h-4/5 flex justify-center items-center text-white bg-cyan-400">{data.category}</div>
-        <img className="object-cover cardImg w-full h-full" src={`http://localhost:3000/uploads/${data.imageFile}`} alt={data.title} />
+        <img className="object-cover cardImg imgW w-full h-full" src={data.imageFile} alt={data.title} />
         <div className="hover-meal absolute inset-0 bg-black opacity-40"></div>
         <div className="absolute inset-0 flex hover-meal items-center justify-center">
           <button className="bg-white  text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
