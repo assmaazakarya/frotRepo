@@ -16,7 +16,7 @@ function Login () {
 
   useEffect(() => {
     if (auth._id) {
-      navigate("/cart");
+      navigate("/meals");
     }
   }, [auth._id, navigate]);
 

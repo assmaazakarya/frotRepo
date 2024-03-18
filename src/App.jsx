@@ -26,6 +26,7 @@ function App() {
           <Route path='/cart' element={<Navbar />} />
           <Route path='/checkout-success' element={<Checking/>} />
           <Route path='/meals' element={<Meals />} />
+          <Route path='/cancel' element={<Meals />} />
           <Route path='/not-found' element={<Notfound />} />
           <Route path='*' element={<Notfound/>} />
         </Routes>
